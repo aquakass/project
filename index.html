@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+  <title>Computer Project</title>
+</head>
+
+<style>
+
+body{
+margin: 20px;
+margin-bottom: 150px;
+padding:0;
+text-align:center;
+}
+html{
+scroll-behavior: smooth;
+scroll-padding-top: 130px;
+}
+.jacket{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-auto-rows:500px 200px;
+grid gap: 5px;
+}
+.item{
+width:85%;
+height:100%;
+margin-left: 25px;
+position:relative;
+}
+.item .image{
+width:100%;
+height:100;
+border-radius: 25px;
+overflow:hidden;
+}
+.item .image img{
+width: 100%;
+height: 100%;
+border-radius: 25px;
+object-fit: cover;
+background-position: 50% 50%;
+max-width:85%;
+cursor:pointer;
+transition: .5s ease-in-out;
+}
+.item:hover .image img{
+transform:scale(1.5);
+z-index: 2;
+}
+.item .des{
+text-align:center;
+color:white;
+font-size: 30px;
+margin-top: 20px;
+}
+ul{
+float: right;
+list-style-type: none;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+width: 120px
+text-decoration: none;
+color: #fff;
+padding: 10px 7px;
+font-family: sans-serif;
+}
+ul li a:hover{
+background-color: #fff;
+color: #000;
+transition: 0.6s ease;
+}
+h1{
+font-size: 50px;
+}
+.border{
+border-style: solid white;
+border-width: 50px;
+padding: 25px;
+margin: auto;
+border-radius: 20px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+color: white;
+}
+
+</style>
+
+<body>
+
+<header>
+<ul>
+<li><a href="#page1" style="text-decoration: none">CARDIGAN</a></li>
+<li><a href="#page2" style="text-decoration: none">BAGS</a></li>
+<li><a href="#page4" style="text-decoration: none">ABOUT US</a>
+<li><a href="mailto:yugakassandra.immaculada.edu.ph" style="text-decoration: none">CONTACT US</a>
+</ul>
+</header>
+
+<body background="https://i.pinimg.com/564x/a7/ca/c0/a7cac035a21061d3fe294dad1823d068.jpg" style="background-size:150%">
+
+<marquee scrollamount="10" direction="right"><h1 style=color:white;>MILKY WAY<br/>COLLECTION</h1></marquee>
+
+<br/>
+<hr>
+<br/>
+<br/>
+
+<h1 style=color:white;>OUR PRODUCTS</h1>
+
+<h2 style=color:white; id="page1">CARDIGAN</h2>
+
+<div class="jacket">
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+    <img src="https://i.pinimg.com/564x/46/f0/48/46f048ff3cc1509efdd302a8f44dfeb6.jpg">
+   </div>
+  <div class="des">Mocha<br/><a href="https://www.etsy.com/listing/1239860430/mocha-hearts?click_key=051f0c6650a3576acdc96b360af2561c7faf1d77%3A1239860430&click_sum=9ef13e2c&ref=shop_home_active_15" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+    <img src="https://i.pinimg.com/564x/53/27/f9/5327f9efe6a9be485f13c97f583c0c51.jpg">
+   </div>
+  <div class="des">Lemon<br/><a href="https://www.etsy.com/listing/1253859367/lemon-bliss-patchwork-cardigan?click_key=32acec80d9743fea005b9b1eb9f25ebcb6104768%3A1253859367&click_sum=b4f2331d&ref=shop_home_active_11" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+    <img src="https://i.pinimg.com/564x/ea/99/f1/ea99f1a28e67a08887a7e70ee07ba06f.jpg">
+   </div>
+  <div class="des">Blueberry<br/><a href="https://www.etsy.com/listing/1239876838/blueberry-dream-patchwork-cardigan?click_key=5449e595260d822e801e5e9fc8b9a3e3f15fa760%3A1239876838&click_sum=41598357&ref=shop_home_active_5" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+</div>
+
+  <h2 style=color:white; id="page2">BAGS</h2>
+
+<div class="jacket">
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+    <img src="https://i.pinimg.com/564x/f4/fc/e1/f4fce11a8df8ab0906dc420ff6d5371f.jpg">
+   </div>
+  <div class="des">Starry Night<br/><a href="https://www.depop.com/products/4starzshop-handmade-crochet-grey-star/" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+    <img src="https://i.pinimg.com/564x/39/39/e0/3939e0586151d6c5ba09d6169950b351.jpg">
+   </div>
+  <div class="des">The Swirl<br/><a href="https://www.depop.com/products/4starzshop-handmade-crochet-spiral-star-8363/" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+   <img src="https://i.pinimg.com/564x/ed/ea/1b/edea1b5fc41754707af2f33c1a50ec4d.jpg">
+    </div>
+  <div class="des">Bling<br/><a href="https://www.depop.com/products/4starzshop-handmade-crochet-grey-fur/" style="text-decoration: none; color: yellow;">BUY NOW!</a></div>
+ </div>
+</div>
+
+</div>
+
+<h2 style=color:white; id="page3">COMING SOON...</h2>
+
+<div class="jacket">
+
+<div class="sweaters">
+
+ <div class="item">
+  <div class="image">
+  <img src="https://i.pinimg.com/736x/5a/cc/dd/5accdd5dacd8ac96bada8bb37c0593bf.jpg">
+   </div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+  <img src="https://i.pinimg.com/736x/5a/cc/dd/5accdd5dacd8ac96bada8bb37c0593bf.jpg">
+   </div>
+ </div>
+</div>
+
+<div class="sweaters">
+ <div class="item">
+  <div class="image">
+  <img src="https://i.pinimg.com/736x/5a/cc/dd/5accdd5dacd8ac96bada8bb37c0593bf.jpg">
+   </div>
+ </div>
+</div>
+
+</div>
+
+<div class="border">
+<h2 class="about" id="page4">ABOUT US</h2>
+
+<p>Milky Way Collection is a company that specializes in making handmade crochet goods.<br/> Our goal is to inspire the youth and keep crochet alive by bringing trendy but unique crochet crafts all around the world.</p>
+
+<h3>MISSION</h3>
+<p> Immaculada Concepcion College aims to provide high quality education designed to nurture high-skilled,<br/>well rounded, and confident life-long learners to be productive contributors of the global society. </p>
+
+<h3>VISION</h3>
+<p> Immaculada Concepcion College envisions to develop globally<br/>competent leaders who possess a strong sense of self direction and passion for excellence. </p>
+</div>
+
+</div>
+
+</body>
+</html>
